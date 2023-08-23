@@ -25,8 +25,8 @@ struct StatusView: View {
                     }
                 }
             
-            stepBar()
-            historyBar()
+//            stepBar()
+//            historyBar()
             
             Image("icon_exit_wh")
                 .resizable()

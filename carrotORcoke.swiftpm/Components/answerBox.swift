@@ -10,14 +10,32 @@ struct answerBox: View {
     
     var body: some View {
         
-        HStack {
+        VStack {
+//            Spacer()
             
-            Image("iceBox_quiz")
-                .resizable()
-                .aspectRatio(contentMode: .fill)
-                .frame(width: 396, height: 251)
-                .padding(10)
-    
+            HStack {
+                
+                
+                Image("iceBox_quiz")
+                    .resizable()
+                    .aspectRatio(contentMode: .fill)
+                    .frame(width: 396, height: 251)
+                    .padding(10)
+//                Image("iceBox_quiz")
+//                    .resizable()
+//                    .aspectRatio(contentMode: .fill)
+//                    .frame(width: 396, height: 251)
+//                    .padding(10)
+//                Image("iceBox_quiz")
+//                    .resizable()
+//                    .aspectRatio(contentMode: .fill)
+//                    .frame(width: 396, height: 251)
+//                    .padding(10)
+//        
+            }
+//            .padding()
+//            .padding()
+//            .padding()
         }
         
         

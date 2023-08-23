@@ -17,7 +17,7 @@ struct RewardView: View {
     
     // 랜덤으로 선택된 보상뱃지
     @State private var selectedBadge: RewardBadge = RewardBadge.allCases.randomElement()!
-    @Binding var badge: RewardBadge?
+    @State var badge: RewardBadge?
     @State var showNextPage = false
     @State private var isSelected = false
     
@@ -238,7 +238,7 @@ struct RewardView: View {
 struct RewardView_Previews: PreviewProvider {
     static var previews: some View {
         
-        RewardView(badge: .constant(nil))
+        RewardView()
             .previewInterfaceOrientation(.landscapeLeft)
     }
 }
